@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+<div class="container text-white">
+    <div class="col-md-10 offset-md-1 mt-5">
+        <div class="jumbotron bg-dark">
+          <h1 class="display-4">Employee Register</h1>
+          <p class="lead font-italic">Python Django Project for Implementing CRUD Operations.</p>
+          <hr class="my-4 border-info">
+
+            <form action="" method="post" autocomplete="off">
+                {% csrf_token %}
+                {{ form.fullname | as_crispy_field }}
+                {{ form.mobile | as_crispy_field }}
+                <div class="row">
+                    <div class="col-md-4">
+                        {{ form.emp_code | as_crispy_field }}
+                    </div>
+                    <div class="col-md-8">
+                        {{ form.position | as_crispy_field }}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <button type="submit" class="btn btn-outline-light btn-block btn-lg"><i class="fa fa-database"></i> Submit</button>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="{% url 'employee_list' %}" class="btn btn-outline-light btn-block btn-lg">
+                            <i class="fa fa-stream"></i> Back to List
+                        </a>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+{% endblock content %}
