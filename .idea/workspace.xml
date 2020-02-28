@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cf59da1-31ac-4e76-b076-d1eff5b08814" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/analyze.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textutils/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/employee_register/employee_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/employee_register/employee_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud_textutils/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud_textutils/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud_textutils/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud_textutils/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_register/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_register/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_register/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_register/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_register/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_register/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_register/templates/employee_register/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_register/templates/employee_register/employee_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_register/templates/employee_register/employee_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_register/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_register/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_register/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee_register/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textutils/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/textutils/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,28 +38,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="9" />
-          <entry key="py" value="10" />
+          <entry key="html" value="22" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="9" />
-          <entry key="Python" value="10" />
+          <entry key="HTML" value="22" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="558" />
-          <entry key="py" value="1060" />
+          <entry key="html" value="1676" />
+          <entry key="py" value="1871" />
           <entry key="txt" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="558" />
+          <entry key="HTML" value="1676" />
           <entry key="PLAIN_TEXT" value="53" />
-          <entry key="Python" value="1060" />
+          <entry key="Python" value="1871" />
         </counts>
       </usages-collector>
     </session>
@@ -54,32 +67,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee_register/views.py">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1582899469932" expanded="true" signature="164:169" ph="..." />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/employee_register/templates/employee_register/employee_form.html">
+        <entry file="file://$PROJECT_DIR$/templates/employee_register/employee_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee_register/templates/employee_register/employee_list.html">
+        <entry file="file://$PROJECT_DIR$/templates/employee_register/employee_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="30" />
+            <state relative-caret-position="228">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/textutils/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/textutils/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+              <folding>
+                <element signature="e#1#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,11 +117,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employee_register/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="95">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/analyze.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -101,8 +149,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -112,18 +160,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/employee_register/admin.py" />
         <option value="$PROJECT_DIR$/employee_register/models.py" />
-        <option value="$PROJECT_DIR$/crud_textutils/urls.py" />
-        <option value="$PROJECT_DIR$/employee_register/templates/employee_register/base.html" />
         <option value="$PROJECT_DIR$/employee_register/forms.py" />
-        <option value="$PROJECT_DIR$/employee_register/urls.py" />
-        <option value="$PROJECT_DIR$/crud_textutils/settings.py" />
-        <option value="$PROJECT_DIR$/templates/employee_register/employee_form.html" />
-        <option value="$PROJECT_DIR$/templates/employee_register/employee_list.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/employee_register/templates/employee_register/base.html" />
+        <option value="$PROJECT_DIR$/employee_register/templates/employee_register/employee_form.html" />
         <option value="$PROJECT_DIR$/employee_register/views.py" />
         <option value="$PROJECT_DIR$/employee_register/templates/employee_register/employee_list.html" />
-        <option value="$PROJECT_DIR$/employee_register/templates/employee_register/employee_form.html" />
+        <option value="$PROJECT_DIR$/crud_textutils/settings.py" />
+        <option value="$PROJECT_DIR$/textutils/urls.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/textutils/views.py" />
+        <option value="$PROJECT_DIR$/crud_textutils/urls.py" />
+        <option value="$PROJECT_DIR$/templates/analyze.html" />
+        <option value="$PROJECT_DIR$/employee_register/urls.py" />
+        <option value="$PROJECT_DIR$/templates/employee_register/crud_base.html" />
+        <option value="$PROJECT_DIR$/templates/employee_register/employee_list.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/employee_register/employee_form.html" />
       </list>
     </option>
   </component>
@@ -165,15 +219,18 @@
             <path>
               <item name="crud_textutils" type="b2602c69:ProjectViewProjectNode" />
               <item name="crud_textutils" type="462c0819:PsiDirectoryNode" />
-              <item name="employee_register" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crud_textutils" type="b2602c69:ProjectViewProjectNode" />
               <item name="crud_textutils" type="462c0819:PsiDirectoryNode" />
-              <item name="employee_register" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="employee_register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crud_textutils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crud_textutils" type="462c0819:PsiDirectoryNode" />
+              <item name="textutils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,7 +315,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582893992441</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Templates and Crispy forms">
+      <created>1582900346970</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582900346971</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Templates and Crispy forms">
+      <created>1582900390131</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582900390131</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -300,75 +371,153 @@
     <option name="LAST_COMMIT_MESSAGE" value="Templates and Crispy forms" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crud_textutils/urls.py">
+    <entry file="file://$PROJECT_DIR$/employee_register/templates/employee_register/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_register/templates/employee_register/employee_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_register/templates/employee_register/employee_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud_textutils/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_register/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1582905666187" expanded="true" signature="128:129" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_register/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <marker date="1582901320655" expanded="true" signature="209:306" ph="..." />
+            <marker date="1582901320655" expanded="true" signature="335:598" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_register/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_register/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1582910271059" expanded="true" signature="261:266" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textutils/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud_textutils/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
             <element signature="e#638#670#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crud_textutils/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee_register/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee_register/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html" />
-    <entry file="file://$PROJECT_DIR$/templates/employee_register/employee_list.html" />
-    <entry file="file://$PROJECT_DIR$/templates/employee_register/employee_form.html" />
-    <entry file="file://$PROJECT_DIR$/employee_register/templates/employee_register/base.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee_register/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1582899469932" expanded="true" signature="164:169" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee_register/templates/employee_register/employee_list.html">
+    <entry file="file://$PROJECT_DIR$/templates/analyze.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="12" selection-start-column="12" selection-end-column="30" />
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textutils/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/employee_register/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="95">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employee_register/templates/employee_register/employee_form.html">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="76">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/employee_register/crud_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/employee_register/employee_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/employee_register/employee_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
