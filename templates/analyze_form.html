@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Welcome to Text Utils!</strong> You can do anything with your text here.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+
+<div class="container">
+    <form action="/analyze" method="post">
+        {% csrf_token %}
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Enter your text here and let text utils do the magic</label>
+    <textarea class="form-control" name="text" id="exampleFormControlTextarea1" rows="8"></textarea>
+  </div>
+
+
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" name="removepunc" id="customSwitch1">
+  <label class="custom-control-label" for="customSwitch1">Remove Punctuations</label>
+</div>
+
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" name="fullcaps" id="customSwitch2">
+  <label class="custom-control-label" for="customSwitch2">Uppercase</label>
+</div>
+
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" name="newlineremover" id="customSwitch3">
+  <label class="custom-control-label" for="customSwitch3">New Line Remover</label>
+</div>
+
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" name="extraspaceremover" id="customSwitch4">
+  <label class="custom-control-label" for="customSwitch4">Extra Space Remover</label>
+</div>
+
+    <button type="submit" class="btn btn-outline-dark mt-2"> Analyze Text</button>
+
+</form>
+</div>
+
+{% endblock %}
