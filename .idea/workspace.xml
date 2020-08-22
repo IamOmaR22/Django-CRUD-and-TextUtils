@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cf59da1-31ac-4e76-b076-d1eff5b08814" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/analyze_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud_textutils/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud_textutils/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/analyze.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/analyze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textutils/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/textutils/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textutils/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/textutils/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="4cf59da1-31ac-4e76-b076-d1eff5b08814" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +12,7 @@
     <session id="-884067">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -32,14 +22,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="25" />
+          <entry key="html" value="26" />
           <entry key="py" value="25" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="25" />
+          <entry key="HTML" value="26" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="25" />
         </counts>
@@ -48,30 +38,20 @@
         <counts>
           <entry key="html" value="1998" />
           <entry key="py" value="2062" />
-          <entry key="txt" value="73" />
+          <entry key="txt" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1998" />
-          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="PLAIN_TEXT" value="83" />
           <entry key="Python" value="2062" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -257,12 +237,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582915686276</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Text Utils Done">
+      <created>1583001594691</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583001594691</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20809716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -320,7 +306,8 @@
     <MESSAGE value="CRUDappStructure text file" />
     <MESSAGE value="Templates and Crispy forms" />
     <MESSAGE value="CRUD Operations Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD Operations Done" />
+    <MESSAGE value="Text Utils Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Text Utils Done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/employee_register/templates/employee_register/base.html" />
