@@ -1,5 +1,5 @@
 # CRUD Operations and Text-Utils
-- In this repositories i implemented CRUD operation and also made an app called TextUtils. This is an open source project, you can fork it and can give pull request. If you like this project then please do follow.
+*In this repositories i implemented CRUD operation and also made an app called TextUtils. This is an open source project, you can fork it and can give pull request. If you like this project then please do follow.*
 
 # Features
 * Employee register.
