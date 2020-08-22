@@ -1,4 +1,11 @@
-# CRUD Operations and Text-Utils Using Django
+# CRUD Operations and Text-Utils
+- In this repositories i implemented CRUD operation and also made an app called TextUtils. This is an open source project, you can fork it and can give pull request. If you like this project then please do follow.
+
+# Features
+* Employee register.
+* Employee Creat, Read, Update, Delete. 
+* User-friendly.
+* I will update it later.....
 
 # Tools
 ## Front-end Part
@@ -8,10 +15,6 @@
 ## Back-end
 * Django
 * SQLite 3
-
-# Features
-* I will update it later.....
-
 
 # Screenshots of the Project
 <p align="center">
